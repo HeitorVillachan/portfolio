@@ -37,7 +37,7 @@ const projetos = [
     numero: "02",
     titulo: "Manguetwon da lama ao caos",
     descricao: "Manguetown: Da Lama ao Caos é um jogo desenvolvido na disciplina de Projetos 1 que visa incluir pessoas com dislexia ao mundo do RPG, tendo uma temática cultural do Recife.",
-    tags: ["Arduino", "C++", ""],
+    tags: ["Arduino", "C++", ],
     link: "#https://github.com/gabriellalbq/Manguetown"
   },
 ];
