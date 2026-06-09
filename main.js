@@ -1,6 +1,6 @@
 document.getElementById('header').innerHTML = `
   <nav class="nav">
-    <span class="nav-logo"><span class="accent">.</span></span>
+    <span class="nav-logo">Heitor<span class="accent">.</span></span>
     <ul class="nav-links">
       <li><a href="#sobre">Sobre</a></li>
       <li><a href="#projetos">Projetos</a></li>
@@ -13,7 +13,7 @@ document.getElementById('hero').innerHTML = `
     <p class="hero-eyebrow">Hello World!</p>
     <h1 class="hero-title">Heitor<br>Villa-chan</h1>
     <p class="hero-sub">
-      Aluno de Ciência da Computação da Cesar School e Apaixonado por tecnologia.
+      Aluno de Ciência da Computação da Cesar School e apaixonado por tecnologia.
     </p>
     <div class="hero-ctas">
       <a href="#projetos" class="btn-primary">Ver projetos</a>
@@ -25,20 +25,48 @@ document.getElementById('hero').innerHTML = `
     <span class="deco-ring deco-ring--2"></span>
   </div>
 `;
-
 const projetos = [
   {
-    numero: "1-",
+    numero: "01",
     titulo: "HYROX Planner",
-    descricao: "HYROX Planner é um sistema desenvolvido em Python para a disciplina de Fundamentos de Programação, com o objetivo de auxiliar atletas na organização e acompanhamento de sua preparação para competições HYROX",
-    tags: ["Python", "Ollama", ],
-    link: "#https://github.com/HeitorVillachan/projeto-FP"
+    descricao: "Sistema desenvolvido em Python para auxiliar atletas na organização e acompanhamento de sua preparação para competições HYROX.",
+    tags: ["Python", "Ollama"],
+    link: "https://github.com/HeitorVillachan/projeto-FP"
   },
   {
     numero: "02",
-    titulo: "Nome do Projeto",
-    descricao: "Breve descrição do que o projeto faz e qual problema resolve. Tecnologias usadas e impacto.",
-    tags: ["TypeScript", "Next.js", "Tailwind"],
+    titulo: "Manguetwon da lama ao caos",
+    descricao: "",
+    tags: ["", "", ""],
     link: "#"
   },
-]
+];
+document.getElementById('projetos').innerHTML = `
+  <div class="projetos-inner">
+    <div class="projetos-header">
+      <p class="section-eyebrow">Projetos</p>
+      <h2 class="section-title">O que já<br>construí.</h2>
+    </div>
+    <ul class="projetos-lista">
+      ${projetos.map(p => `
+        <li class="projeto-card">
+          <span class="projeto-numero">${p.numero}</span>
+          <div class="projeto-body">
+            <h3 class="projeto-titulo">${p.titulo}</h3>
+            <p class="projeto-desc">${p.descricao}</p>
+            <ul class="projeto-tags">
+              ${p.tags.map(t => `<li>${t}</li>`).join('')}
+            </ul>
+          </div>
+          <a href="${p.link}" class="projeto-link" target="_blank" rel="noopener">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="1.5"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M7 17L17 7M17 7H7M17 7v10"/>
+            </svg>
+          </a>
+        </li>
+      `).join('')}
+    </ul>
+  </div>
+`;
