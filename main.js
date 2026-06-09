@@ -13,7 +13,7 @@ document.getElementById('hero').innerHTML = `
     <p class="hero-eyebrow">Desenvolvedor Front-end</p>
     <h1 class="hero-title">Heitor<br>Villa-chan</h1>
     <p class="hero-sub">
-      Crio interfaces que unem código limpo e experiências memoráveis.
+      Aluno de Ciência da Computação da Cesar School e Apaixonado por tecnologia.
     </p>
     <div class="hero-ctas">
       <a href="#projetos" class="btn-primary">Ver projetos</a>
