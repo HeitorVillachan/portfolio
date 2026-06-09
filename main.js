@@ -25,3 +25,20 @@ document.getElementById('hero').innerHTML = `
     <span class="deco-ring deco-ring--2"></span>
   </div>
 `;
+
+const projetos = [
+  {
+    numero: "1-",
+    titulo: "HYROX Planner",
+    descricao: "HYROX Planner é um sistema desenvolvido em Python para a disciplina de Fundamentos de Programação, com o objetivo de auxiliar atletas na organização e acompanhamento de sua preparação para competições HYROX",
+    tags: ["Python", "Ollama", ],
+    link: "#https://github.com/HeitorVillachan/projeto-FP"
+  },
+  {
+    numero: "02",
+    titulo: "Nome do Projeto",
+    descricao: "Breve descrição do que o projeto faz e qual problema resolve. Tecnologias usadas e impacto.",
+    tags: ["TypeScript", "Next.js", "Tailwind"],
+    link: "#"
+  },
+]
