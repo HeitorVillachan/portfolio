@@ -1,6 +1,6 @@
 document.getElementById('header').innerHTML = `
   <nav class="nav">
-    <span class="nav-logo">Heitor<span class="accent">.</span></span>
+    <span class="nav-logo"><span class="accent">.</span></span>
     <ul class="nav-links">
       <li><a href="#sobre">Sobre</a></li>
       <li><a href="#projetos">Projetos</a></li>
