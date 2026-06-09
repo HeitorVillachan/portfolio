@@ -10,7 +10,7 @@ document.getElementById('header').innerHTML = `
 `;
 document.getElementById('hero').innerHTML = `
   <div class="hero-inner">
-    <p class="hero-eyebrow">Desenvolvedor Front-end</p>
+    <p class="hero-eyebrow">Hello World!</p>
     <h1 class="hero-title">Heitor<br>Villa-chan</h1>
     <p class="hero-sub">
       Aluno de Ciência da Computação da Cesar School e Apaixonado por tecnologia.
