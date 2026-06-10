@@ -13,7 +13,7 @@ document.getElementById('hero').innerHTML = `
     <p class="hero-eyebrow">Hello World!</p>
     <h1 class="hero-title">Heitor<br>Villa-chan</h1>
     <p class="hero-sub">
-      Aluno de Ciência da Computação da Cesar School e apaixonado por tecnologia.
+      Aqui você pode descobrir um pouco sobre mim.
     </p>
     <div class="hero-ctas">
       <a href="#projetos" class="btn-primary">Ver projetos</a>
@@ -76,5 +76,31 @@ document.getElementById('projetos').innerHTML = `
         </li>
       `).join('')}
     </ul>
+  </div>
+`;
+document.getElementById('sobre').innerHTML = `
+  <div class="sobre-inner">
+    <div class="sobre-text">
+      <p class="section-eyebrow">Sobre mim</p>
+      <h2 class="section-title">Interesses e <br>sobre mim.</h2>
+      <p class="sobre-bio">
+        Sou estudante de Ciência da Computação na Cesar School e apaixonado por tecnologia.
+      </p>
+      <p class="sobre-bio">
+        Áreas de Interesse: Cybersegurança, Ciência de Dados, Engenharia de Software e Négocios.
+      </p>
+    </div>
+
+    <div class="sobre-skills">
+      <p class="skills-label">Tecnologias</p>
+      <ul class="skills-grid">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>C</li>
+        <li>Python</li>
+        <li>WordPress</li>
+      </ul>
+    </div>
   </div>
 `;
