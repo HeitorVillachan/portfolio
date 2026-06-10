@@ -40,6 +40,14 @@ const projetos = [
     tags: ["Arduino", "C++", ],
     link: "https://github.com/gabriellalbq/Manguetown"
   },
+  {
+    numero: "03",
+    titulo: "Heraclida",
+    descricao: "Heraclida é um jogo desenvolvido no Bitsy cuja dinâmica se baseia em labirintos e traz um tema relacionado à Idade Antiga, mais especificamente a Esparta.",
+    tags: ["Bitsy"  ],
+    link: "https://caioribeirocesarschool.itch.io/heraclidagame"
+  },
+  
 ];
 document.getElementById('projetos').innerHTML = `
   <div class="projetos-inner">
