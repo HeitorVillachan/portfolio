@@ -64,7 +64,7 @@ document.getElementById('sobre').innerHTML = `
       </p>
     </div>
     <div class="sobre-skills">
-      <p class="skills-label">HardSkills</p>
+      <p class="skills-label">Hard Skills</p>
       <ul class="skills-grid">
         <li>HTML</li>
         <li>CSS</li>
