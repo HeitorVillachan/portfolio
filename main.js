@@ -57,7 +57,7 @@ document.getElementById('sobre').innerHTML = `
       <p class="section-eyebrow">Sobre mim</p>
       <h2 class="section-title">Interesses e<br>Tecnologias.</h2>
       <p class="sobre-bio">
-         Sou estudante de Ciência da Computação na Cesar School, estou sempre em busca de aprendizados e desafios que me façam evoluir. Gosto de transformar minhas ideias em projetos reais e explorar as possibilidades que o mundo da tecnologia tem a oferecer, constantemente me adaptando às mudanças e melhorando a cada passo.
+          Sou estudante de Ciência da Computação na Cesar School e estou sempre em busca de desafios que ampliem meus conhecimentos e impulsionem meu crescimento profissional. Tenho interesse em resolução de problemas e criação de soluções tecnológicas que gerem impacto real. Gosto de transformar ideias em projetos concretos, explorando novas tecnologias e aprimorando continuamente minhas habilidades para acompanhar a constante evolução da área.
       </p>
       <p class="sobre-bio">
         Áreas de interesse: Cybersegurança, Ciência de Dados, Engenharia de Software e Negócios.
