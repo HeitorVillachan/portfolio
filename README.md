@@ -1,4 +1,9 @@
-# Portfólio = Heitor Villa-chan
+# Portfólio-Heitor Villa-chan
 Site pessoal desenvolvido com HTML, CSS e JavaScript puro, sem frameworks.
-## 🔗 Acesse
+## Acesse
 [portfolioheitorvillachan.netlify.app](https://portfolioheitorvillachan.netlify.app)
+## Tecnologias utilizadas
+- HTML
+- CSS
+- JavaScript
+
