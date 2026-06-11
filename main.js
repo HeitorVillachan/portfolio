@@ -21,8 +21,6 @@ document.getElementById('hero').innerHTML = `
       <div class="terminal-body">
         <p><span class="t-prompt">$ </span><span class="t-cmd" id="typed"></span><span class="t-cursor">▋</span></p>
         <p class="t-output" id="t-out" style="opacity:0">Hello World!</p>
-      
-
       </div>
     </div>
     <h1 class="hero-title">Heitor<br>Villa-chan</h1>
@@ -59,14 +57,14 @@ document.getElementById('sobre').innerHTML = `
       <p class="section-eyebrow">Sobre mim</p>
       <h2 class="section-title">Interesses e<br>Tecnologias.</h2>
       <p class="sobre-bio">
-        Sou estudante de Ciência da Computação da Cesar School e apaixonado por tecnologia.
+         Sou estudante de Ciência da Computação na Cesar School, estou sempre em busca de aprendizados e desafios que me façam evoluir. Gosto de transformar minhas ideias em projetos reais e explorar as possibilidades que o mundo da tecnologia tem a oferecer, constantemente me adaptando às mudanças e melhorando a cada passo.
       </p>
       <p class="sobre-bio">
         Áreas de interesse: Cybersegurança, Ciência de Dados, Engenharia de Software e Negócios.
       </p>
     </div>
     <div class="sobre-skills">
-      <p class="skills-label">Tecnologias</p>
+      <p class="skills-label">HardSkills</p>
       <ul class="skills-grid">
         <li>HTML</li>
         <li>CSS</li>
@@ -75,8 +73,16 @@ document.getElementById('sobre').innerHTML = `
         <li>Python</li>
         <li>WordPress</li>
       </ul>
+      <p class="skills-label" style="margin-top: 2rem;">Soft Skills</p>
+      <ul class="skills-grid">
+        <li>Comunicação</li>
+        <li>Trabalho em equipe</li>
+        <li>Resolução de problemas</li>
+        <li>Adaptabilidade</li>
+        <li>Comunicação não violenta</li>
+        <li>Gestão de Projetos</li>
+      </ul>
     </div>
-  </div>
 `;
 const projetos = [
   {
@@ -99,6 +105,13 @@ const projetos = [
     descricao: "Jogo desenvolvido no Bitsy cuja dinâmica se baseia em labirintos com tema da Idade Antiga, mais especificamente Esparta.",
     tags: ["Bitsy"],
     link: "https://caioribeirocesarschool.itch.io/heraclidagame"
+  },
+   {
+    numero: "04",
+    titulo: "Portfólio",
+    descricao: "Repositório do meu portfólio pessoal, desenvolvido com HTML, CSS e JavaScript. Veja como foi desenvolvido.",
+    tags: ["HTML", "CSS", "Java Script"],
+    link: "https://github.com/HeitorVillachan/portfolio"
   },
 ];
 document.getElementById('projetos').innerHTML = `
@@ -134,9 +147,8 @@ document.getElementById('contato').innerHTML = `
   <div class="contato-inner">
     <div class="contato-text">
       <p class="section-eyebrow">Contato</p>
-      <h2 class="section-title">Vamos construir<br>algo juntos.</h2>
+      <h2 class="section-title">Aberto a <br>oportunidades.</h2>
       <p class="contato-sub">
-        Aberto a oportunidades e freelas.
         Me manda uma mensagem!
       </p>
       <ul class="contato-links">
